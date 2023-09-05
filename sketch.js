@@ -59,7 +59,7 @@ player = createSprite(displayWidth-1150, displayHeight-300, 50, 50);
     heart3.scale = 0.4
    
 
-    //criar o grupo para os zumbis    
+    //criar o grupo para os zumbis   
     zombieGroup = new Group();
 }
 
@@ -114,7 +114,7 @@ function enemy(){
   if(frameCount%50===0){
 
     //atribuir posições x e y aleatórias para o zumbi aparecer
-    zombie = createSprite(random(500,1200), random(200,550),40,40)
+    zombie = createSprite(random(500,1100),random(100,500),40,40)
 
     zombie.addImage(zombieImg)
     zombie.scale = 0.15
@@ -125,5 +125,7 @@ function enemy(){
     zombie.lifetime = 400
    zombieGroup.add(zombie)
   }
+
+}
 
 }
