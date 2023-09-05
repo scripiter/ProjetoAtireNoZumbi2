@@ -114,7 +114,7 @@ function enemy(){
   if(frameCount%50===0){
 
     //atribuir posições x e y aleatórias para o zumbi aparecer
-    zombie = createSprite(ramdom(500,1200), ramdo(200,550),40,40)
+    zombie = createSprite(random(500,1200), random(200,550),40,40)
 
     zombie.addImage(zombieImg)
     zombie.scale = 0.15
